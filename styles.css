@@ -1,0 +1,124 @@
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    background-image:url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  form {
+    width: 600px;
+    margin: 40px auto;
+    padding: 10px 20px;
+    background:rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  .number {
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #FF5722;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    padding: 15px;
+    width: 95%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    outline: 0;
+}
+  input[type="text"],
+  input[type="email"]{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+  input[type="radio"]
+  {
+    margin-left:25px ;
+    width: 20px;
+    height: 20px;
+  }
+  .gender{
+    font-size: 20px;
+    margin-left: 2px;
+  }
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+    color: #000;
+  }
+  
+  div {
+    margin-bottom: 30px;
+    border: 1px solid #E64A19;
+    padding: 10px;
+  }
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  button{
+    border: 1px solid #E64A19;
+    border-width: 1px 1px 3px;
+    background-color: #FF5722;
+    font-size: 18px;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+   @media (max-width: 680px) {
+    form {
+      width: 80%;
+    }
+
+    input[type="text"],
+  input[type="email"],
+  textarea,
+  select{
+    width: 85%;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  } 
+  
